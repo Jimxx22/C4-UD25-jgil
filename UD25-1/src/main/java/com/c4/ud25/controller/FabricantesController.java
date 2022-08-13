@@ -34,6 +34,7 @@ public class FabricantesController {
 		return fabricantesServiceImpl.guardarFabricante(fabricante);
 	}
 	
+	@GetMapping("/fabricantes/{id}")
 	public Fabricante fabricanteXId(@PathVariable(name="id") Long id) {
 		
 		Fabricante fabricante = new Fabricante();

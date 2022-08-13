@@ -31,6 +31,7 @@ public class ArticulosController {
 		return articulosServiceImpl.guardarArticulo(Articulo);
 	}
 	
+	@GetMapping("/articulos/{id}")
 	public Articulo ArticuloXId(@PathVariable(name="id") Long id) {
 		
 		Articulo Articulo = new Articulo();
@@ -43,16 +44,16 @@ public class ArticulosController {
 	@PutMapping("/articulos/{id}")
 	public Articulo actualizarArticulo(@PathVariable(name="id") Long id, @RequestBody Articulo Articulo) {
 		
-		Articulo Articulosel = new Articulo();
-		Articulo ArticuloAct = new Articulo();
+		Articulo articuloSel = new Articulo();
+		Articulo articuloAct = new Articulo();
 		
-		Articulosel=articulosServiceImpl.articuloXID(id);
+		articuloSel=articulosServiceImpl.articuloXID(id);
 		
-		Articulosel.setNombre(Articulo.getNombre());
+		articuloSel.setNombre(Articulo.getNombre());
 		
-		ArticuloAct= articulosServiceImpl.actualizarArticulo(Articulosel);
+		articuloAct= articulosServiceImpl.actualizarArticulo(articuloSel);
 		
-		return ArticuloAct;
+		return articuloAct;
 		
 	}
 	
