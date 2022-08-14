@@ -8,11 +8,11 @@ public interface IEmpleadoService {
 	//Metodos del CRUD
 	public List<Empleado> listarEmpleados(); //Listar All 
 	
-	public Empleado guardarEmpleado(Empleado empleado);	//Guarda un video CREATE
+	public Empleado guardarEmpleado(Empleado empleado);	//Guarda un Empleado CREATE
 	
-	public Empleado empleadoXID(String dni); //Leer datos de un video READ
+	public Empleado empleadoXID(String dni); //Leer datos de un Empleado READ
 	
-	public Empleado actualizarEmpleado(Empleado empleado); //Actualiza datos del video UPDATE
+	public Empleado actualizarEmpleado(Empleado empleado); //Actualiza datos del Empleado UPDATE
 	
-	public void eliminarEmpleado(String dni);// Elimina el video DELETE
+	public void eliminarEmpleado(String dni);// Elimina el Empleado DELETE
 }
