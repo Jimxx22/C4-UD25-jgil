@@ -2,26 +2,39 @@
 
 UD25-1 ENDPOINTS
 
-GET -> /fabricantes | /articulos
+GET -> /api/fabricantes | /api/articulos
 
-GET -> /fabricantes{id} | /articulos{id}
+GET -> /api/fabricantes{id} | /api/articulos{id}
 
-POST -> /fabricantes | /articulos
+POST -> /api/fabricantes | /api/articulos
 
-PUT -> /fabricantes/{id} | /articulos/{id}
+PUT -> /api/fabricantes/{id} | /api/articulos/{id}
 
-DELETE -> /fabricantes/{id} | /articulos/{id}
+DELETE -> /api/fabricantes/{id} | /api/articulos/{id}
 
 --------------------------------------------------------------------------------------
 
 UD25-2 ENDPOINTS
 
-GET -> /empleados | /departamentos
+GET -> /api/empleados | /api/departamentos
 
-GET -> /empleados{dni} | /departamentos{id}
+GET -> /api/empleados{dni} | /api/departamentos{id}
 
-POST -> /empleados | /departamentos
+POST -> /api/empleados | /api/departamentos
 
-PUT -> /empleados/{dni} | /departamentos/{id}
+PUT -> /api/empleados/{dni} | /api/departamentos/{id}
 
-DELETE -> /empleados/{dni} | /departamentos/{id}
+DELETE -> /api/empleados/{dni} | /api/departamentos/{id}
+--------------------------------------------------------------------------------------
+
+UD25-3 ENDPOINTS
+
+GET -> /api/almacenes | /api/cajas
+
+GET -> /api/almacenes{id} | /api/cajas{numReferencia}
+
+POST -> /api/almacenes | /api/cajas
+
+PUT -> /api/almacenes/{id} | /api/cajas/{numReferencia}
+
+DELETE -> /api/almacenes/{id} | /api/cajas/{numReferencia}
