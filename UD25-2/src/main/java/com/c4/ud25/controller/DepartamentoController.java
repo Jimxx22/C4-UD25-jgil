@@ -68,7 +68,7 @@ public class DepartamentoController {
 			departamentosServiceImpl.eliminarDepartamento(id);
 			return "Departamento borrado";
 		}catch (Exception e) {
-			return "ERROR: no puedes eliminar un fabricante sin haver eliminado sus productos antes.";
+			return "ERROR: no puedes eliminar un departamento sin haver eliminado sus empleados antes.";
 		}
 		
 	}
