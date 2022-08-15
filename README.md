@@ -38,3 +38,17 @@ POST -> /api/almacenes | /api/cajas
 PUT -> /api/almacenes/{id} | /api/cajas/{numReferencia}
 
 DELETE -> /api/almacenes/{id} | /api/cajas/{numReferencia}
+--------------------------------------------------------------------------------------
+
+UD25-4 ENDPOINTS
+
+GET -> /api/peliculas | /api/salas
+
+GET -> /api/peliculas{id} | /api/salas{id}
+
+POST -> /api/peliculas | /api/salas
+
+PUT -> /api/peliculas/{id} | /api/salas/{id}
+
+DELETE -> /api/peliculas/{id} | /api/salas/{id}
+
