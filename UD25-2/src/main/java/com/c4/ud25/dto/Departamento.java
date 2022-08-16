@@ -67,7 +67,7 @@ public class Departamento {
 	}
 
 	@JsonIgnore
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Articulo")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Empleado")
 	public List<Empleado> getEmpleados() {
 		return empleados;
 	}

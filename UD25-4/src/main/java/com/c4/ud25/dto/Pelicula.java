@@ -66,7 +66,7 @@ public class Pelicula {
 	}
 
 	@JsonIgnore
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Articulo")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Sala")
 	public List<Sala> getSalas() {
 		return salas;
 	}

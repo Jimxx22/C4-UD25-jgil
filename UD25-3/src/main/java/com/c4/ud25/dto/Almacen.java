@@ -66,7 +66,7 @@ public class Almacen {
 	}
 
 	@JsonIgnore
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Articulo")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Caja")
 	public List<Caja> getCajas() {
 		return cajas;
 	}
