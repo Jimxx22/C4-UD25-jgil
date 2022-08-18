@@ -1,1 +1,9 @@
 GITs de los deploys de Heroku:
+
+https://github.com/Jimxx22/C4-UD2501-JAVA-jgil.git
+
+https://github.com/Jimxx22/C4-UD2502-JAVA-jgil.git
+
+https://github.com/Jimxx22/C4-UD2503-JAVA-jgil.git
+
+https://github.com/Jimxx22/C4-UD2504-JAVA-jgil.git
